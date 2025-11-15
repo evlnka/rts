@@ -67,4 +67,3 @@ mkdir -p bin
 - Сигналы/таймеры: SIGUSR1/2, SIGTERM, SIGALRM через `setitimer`, обработчики — максимально простые, без небезопасных вызовов.
 - Менеджер ресурсов: на Linux имитирован через UNIX-сокеты; open/read/write ≈ accept/recv/send.
 
-Подробности см. в README в подпапках.
